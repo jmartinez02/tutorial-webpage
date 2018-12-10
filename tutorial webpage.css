@@ -1,0 +1,130 @@
+#brand {
+    font-size: 420%;
+    margin: 0;
+    position: relative;
+    left: 2vw;
+    top: 9vh;
+    font-weight: 100;
+    max-width: 40%;;
+}
+/* The sidebar menu */
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #84ceeb; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f191;
+  }
+  
+  /* Style page content */
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+
+
+ul {
+    font-style: italic;
+    background-color: #5680e9;
+    float: center;
+
+}
+header {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    background-color: #84ceeb;
+    font-size: 27px;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.topnav {
+    font-family: 'Cantarell', sans-serif;
+}
+.topnav a:hover{
+    color: #ffffff;
+}
+
+footer {
+    font: 100;
+    font-size-adjust: inherit;
+}
+
+h3 {
+    background: #ccc
+}
+
+#objects {
+    font-size: 40px;
+
+}
+
+#functions {
+    font-size: 40px;
+}
+
+#array {
+    font-size: 40px;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/jgZcrie.jpg);
+}
+pre {
+    font-size: 18px;
+}
+code {
+    border: inset;
+    border-radius: 5px 5px 5px 5px;
+    border-width: 3px;
+    border-color: #8860d0;
+    border-bottom-style: hidden;
+    
+}
